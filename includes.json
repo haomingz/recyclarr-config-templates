@@ -127,12 +127,20 @@
       "id": "sonarr-v4-custom-formats-web-1080p-ncase"
     },
     {
+      "template": "sonarr/includes/custom-formats/sonarr-v4-custom-formats-web-1080p-hz.yml",
+      "id": "sonarr-v4-custom-formats-web-1080p-hz"
+    },
+    {
       "template": "sonarr/includes/custom-formats/sonarr-v4-custom-formats-web-2160p.yml",
       "id": "sonarr-v4-custom-formats-web-2160p"
     },
     {
       "template": "sonarr/includes/custom-formats/sonarr-v4-custom-formats-web-2160p-ncase.yml",
       "id": "sonarr-v4-custom-formats-web-2160p-ncase"
+    },
+    {
+      "template": "sonarr/includes/custom-formats/sonarr-v4-custom-formats-web-2160p-hz.yml",
+      "id": "sonarr-v4-custom-formats-web-2160p-hz"
     },
     {
       "template": "sonarr/includes/custom-formats/sonarr-v4-custom-formats-anime-fr.yml",
@@ -187,6 +195,10 @@
       "id": "sonarr-v4-quality-profile-web-1080p-ncase"
     },
     {
+      "template": "sonarr/includes/quality-profiles/sonarr-v4-quality-profile-web-1080p-hz.yml",
+      "id": "sonarr-v4-quality-profile-web-1080p-hz"
+    },
+    {
       "template": "sonarr/includes/quality-profiles/sonarr-v4-quality-profile-web-2160p.yml",
       "id": "sonarr-v4-quality-profile-web-2160p"
     },
@@ -195,8 +207,8 @@
       "id": "sonarr-v4-quality-profile-web-2160p-ncase"
     },
     {
-      "template": "sonarr/includes/quality-profiles/sonarr-v4-quality-profile-web-2160p-ncase.yml",
-      "id": "sonarr-v4-quality-profile-web-2160p=ncase"
+      "template": "sonarr/includes/quality-profiles/sonarr-v4-quality-profile-web-2160p-hz.yml",
+      "id": "sonarr-v4-quality-profile-web-2160p-hz"
     },
     {
       "template": "sonarr/includes/quality-profiles/sonarr-v4-quality-profile-anime-fr.yml",
