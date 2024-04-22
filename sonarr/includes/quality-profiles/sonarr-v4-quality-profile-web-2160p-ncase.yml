@@ -17,8 +17,4 @@ quality_profiles:
           - WEBDL-2160p
           - WEBRip-2160p
       - name: Bluray-2160p
-        qualities:
-          - Bluray-2160p
       - name: HDTV-2160p
-        qualities:
-          - HDTV-2160p
