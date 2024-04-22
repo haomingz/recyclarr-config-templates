@@ -19,6 +19,7 @@ custom_formats:
       - e2315f990da2e2cbfc9fa5b7a6fcfe48 # LQ (Release Title)
       - 47435ece6b99a0b477caf360e79ba0bb # x265 (HD)
       - fbcb31d8dabd2a319072b84fc0b7249c # Extras
+      - 1b3994c551cbb92a2c781af061f4ab44 # Scene
 
       # Optional UHD
       - 2016d1676f5ee13a5b7257ff86ac9a93 # SDR
