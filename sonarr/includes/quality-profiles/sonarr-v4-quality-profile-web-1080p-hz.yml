@@ -2,9 +2,6 @@ quality_profiles:
   - name: WEB-1080p
     reset_unmatched_scores:
       enabled: true
-      except:
-        - HUNO Freeleech
-        - HUNO
     upgrade:
       allowed: true
       until_quality: WEB 1080p
