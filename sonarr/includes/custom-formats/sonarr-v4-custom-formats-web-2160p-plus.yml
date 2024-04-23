@@ -59,6 +59,8 @@ custom_formats:
       - 0e99e7cc719a8a73b2668c3a0c3fe10c # U-NEXT
       - 5d2317d99af813b6529c7ebf01c83533 # VDL
       - 93c9d1e566dca8b34d57f5efbbf85f28 # VIU
+      - ec9692df08604d1bbce4ae8344c93aa2 # IQ
+      - f5ba65aec9a249d9bc7d243a483c1612 # VIU
       - 43b3cf48cb385cd3eac608ee6bca7f09 # UHD Streaming Boost
       - d2d299244a92b8a52d4921ce3897a256 # UHD Streaming Cut
 
