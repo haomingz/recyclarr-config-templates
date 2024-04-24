@@ -44,7 +44,8 @@ custom_formats:
       - 5d2317d99af813b6529c7ebf01c83533 # VDL
       - 93c9d1e566dca8b34d57f5efbbf85f28 # VIU
       - ec9692df08604d1bbce4ae8344c93aa2 # IQ
-      - f5ba65aec9a249d9bc7d243a483c1612 # VIU
+      - f5ba65aec9a249d9bc7d243a483c1612 # MyVideo
+      - 8f6148cc32304e1dbee41f2d7e8ad918 # CatchPlay
 
       # HQ Source Groups
       - e6258996055b9fbab7e9cb2f75819294 # WEB Tier 01
