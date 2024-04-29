@@ -183,6 +183,10 @@
       "id": "sonarr-v4-quality-profile-web-1080p"
     },
     {
+      "template": "sonarr/includes/quality-profiles/sonarr-v4-quality-profile-web-1080p-base.yml",
+      "id": "sonarr-v4-quality-profile-web-1080p-base"
+    },
+    {
       "template": "sonarr/includes/quality-profiles/sonarr-v4-quality-profile-web-1080p-plus.yml",
       "id": "sonarr-v4-quality-profile-web-1080p-plus"
     },
