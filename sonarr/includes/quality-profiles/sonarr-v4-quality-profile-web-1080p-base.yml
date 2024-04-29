@@ -1,5 +1,5 @@
 quality_profiles:
-  - name: WEB-1080p
+  - name: WEB-1080p-Base
     reset_unmatched_scores:
       enabled: true
     upgrade:
