@@ -236,11 +236,11 @@
     },
     {
       "template": "sonarr/includes/custom-formats/sonarr-v4-custom-formats-web-1080p-base.yml",
-      "id": "sonarr-v4-custom-formats-web-1080p"
+      "id": "sonarr-v4-custom-formats-web-1080p-base"
     },
     {
       "template": "sonarr/includes/custom-formats/sonarr-v4-custom-formats-web-1080p-plus.yml",
-      "id": "sonarr-v4-custom-formats-web-1080p"
+      "id": "sonarr-v4-custom-formats-web-1080p-plus"
     },
     {
       "template": "sonarr/includes/custom-formats/sonarr-v4-custom-formats-bluray-web-1080p-french-vostfr.yml",
@@ -300,11 +300,11 @@
     },
     {
       "template": "sonarr/includes/quality-profiles/sonarr-v4-quality-profile-web-1080p-base.yml",
-      "id": "sonarr-v4-quality-profile-web-1080p"
+      "id": "sonarr-v4-quality-profile-web-1080p-base"
     },
     {
       "template": "sonarr/includes/quality-profiles/sonarr-v4-quality-profile-web-1080p-plus.yml",
-      "id": "sonarr-v4-quality-profile-web-1080p"
+      "id": "sonarr-v4-quality-profile-web-1080p-plus"
     },
     {
       "template": "sonarr/includes/quality-profiles/sonarr-v4-quality-profile-web-1080p-alternative.yml",
