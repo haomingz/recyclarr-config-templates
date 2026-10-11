@@ -1,24 +1,38 @@
 name: Discord Notification
 
 on:
-  # includes PR merges as well as pushes without a PR
   push:
     branches:
       - master
 
+permissions:
+  contents: read
+
 jobs:
-  check_dates:
+  discord_notification:
     name: Discord Notification
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4
-
-      - name: Discord Commits
-        uses: recyclarr/discord-commits@v2
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
-          webhook: ${{ secrets.DISCORD_WEBHOOK }}
-          template: simple-link
-          commit-filters: |
-            ^feat:
-            ^fix:
+          persist-credentials: false
+
+      - name: Filter commits and build embeds
+        id: filter
+        env:
+          COMMITS_JSON: ${{ toJson(github.event.commits) }}
+        run: |
+          output=$(echo "$COMMITS_JSON" | ./ci/filter-commits.sh)
+          echo "$output" | while read -r line; do
+            echo "$line" >> $GITHUB_OUTPUT
+          done
+
+      - name: Discord notification
+        if: steps.filter.outputs.count > 0
+        uses: Ilshidur/action-discord@d2594079a10f1d6739ee50a2471f0ca57418b554 # 0.4.0
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          DISCORD_EMBEDS: ${{ steps.filter.outputs.embeds }}
+        with:
+          args: "New commits to ${{ github.repository }}"
